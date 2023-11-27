@@ -1,0 +1,33 @@
+#page {
+  text-align: center;
+  padding-top: 0px;
+  color: white;
+}
+#portals {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: black;
+}
+button {
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button:hover span {
+  display: none
+}
+
+button:hover:before {
+  background: white;
+  color: black;
+  content: "media"
+}
